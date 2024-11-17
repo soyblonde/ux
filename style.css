@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+}
+
+h1, h2, h3 {
+  color: #154734; /* Dark Emerald Green */
+}
+
+a {
+  color: #d0a9a0; /* Dusty Rose Pink */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b89859; /* Gold Accent */
+}
+
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #154734;
+  color: white;
+  padding: 1rem 0;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+/* Footer */
+footer {
+  background-color: #d0a9a0; /* Dusty Rose Pink */
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer input, footer textarea, footer button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer button {
+  background-color: #154734; /* Dark Emerald Green */
+  color: white;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #b89859; /* Gold Accent */
+}
+
